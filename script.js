@@ -6,7 +6,7 @@ document.querySelectorAll('.video-sidebar ul li').forEach(item => {
         const video = document.getElementById('video');
         const videoSource = document.getElementById('videoSource');
 
-        videoSource.setAttribute('src', videoIf);
+        videoIf.setAttribute('src', videoIf);
         video.load();
     });
 });
