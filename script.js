@@ -2,7 +2,7 @@
 document.querySelectorAll('.video-sidebar ul li').forEach(item => {
     item.addEventListener('click', function() {
         const videoSrc = this.getAttribute('data-video');
-        const videoIf = document.getElementById('data-video')
+        const videoIf = this.getAttribute('data-video')
         const video = document.getElementById('video');
         const videoSource = document.getElementById('videoSource');
         const videoiframe = document.getElementById('videoiframe');
