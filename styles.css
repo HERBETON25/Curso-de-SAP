@@ -138,6 +138,13 @@ span {
 h5{
     margin: 0;
 }
+iframe{
+    width:800px;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+    margin: 0;
+}
 /* Media Queries */
 @media (max-width: 768px) {
     .content {
