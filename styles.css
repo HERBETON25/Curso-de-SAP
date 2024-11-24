@@ -139,8 +139,8 @@ h5{
     margin: 0;
 }
 iframe{
-    width:800px;
-    height: 350px;
+    width:100%;
+    height: auto;
     border: none;
     border-radius: 10px;
     margin: 0;
