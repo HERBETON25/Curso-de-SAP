@@ -5,14 +5,16 @@ document.querySelectorAll('.video-sidebar ul li').forEach(item => {
         const videoIf = this.getAttribute('data-video');
 
         const video = document.getElementById('video');
+        const iframe = document.getElementById('videoIframe');
 
         const videoSource = document.getElementById('videoSource');
         const videoIframe = document.getElementById('videoIframe');
 
         videoSource.setAttribute('src',videoSrc);
         videoIframe.setAttribute('src', videoIf);
-        
+
         video.load();
+        iframe.load();
     });
 });
 
