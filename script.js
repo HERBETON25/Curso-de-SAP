@@ -5,7 +5,7 @@ document.querySelectorAll('.video-sidebar ul li').forEach(item => {
         const videoIf = this.getAttribute('data-video');
 
         const video = document.getElementById('video');
-        const iframe = document.getElementById('videoIframe');
+        
 
         const videoSource = document.getElementById('videoSource');
         const videoIframe = document.getElementById('videoIframe');
@@ -14,7 +14,7 @@ document.querySelectorAll('.video-sidebar ul li').forEach(item => {
         videoIframe.setAttribute('src', videoIf);
 
         video.load();
-        iframe.load();
+        
     });
 });
 
