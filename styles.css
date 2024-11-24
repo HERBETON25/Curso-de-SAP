@@ -92,7 +92,10 @@ span {
 h5{
     margin: 0;
 }
-
+iframe {
+    width: 60vw;
+    height: 50vw;
+}
 /* Media Queries */
 @media (max-width: 768px) {
     .content {
@@ -112,7 +115,7 @@ h5{
         width: 90%
     }
     iframe {
-        width: 100%;
-        
+        width: 80vw;
+        height: 50vw;
     }
 }
