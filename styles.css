@@ -140,7 +140,7 @@ h5{
 }
 iframe{
     width:100%;
-    height: auto;
+    height: 100%;
     border: none;
     border-radius: 10px;
     margin: 0;
