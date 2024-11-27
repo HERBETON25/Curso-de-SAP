@@ -93,13 +93,13 @@ h5{
     margin: 0;
 }
 iframe {
-    width: 60vw;
+    width: 100vw;
     height: 50vw;
 }
 /* Media Queries */
-@meia (max-width: 1300px) {
+@meia (max-width: 1200px) {
     iframe {
-        width: 80vw;
+        width: 60vw;
         height: 50vw;
     }
 }
