@@ -97,6 +97,12 @@ iframe {
     height: 50vw;
 }
 /* Media Queries */
+@meia (max-width: 1300px) {
+    iframe {
+        width: 80vw;
+        height: 50vw;
+    }
+}
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
