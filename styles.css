@@ -97,7 +97,7 @@ iframe {
     height: 50vw;
 }
 /* Media Queries */
-@meia (max-width: 1200px) {
+@media (max-width: 1200px) {
     iframe {
         width: 60vw;
         height: 50vw;
